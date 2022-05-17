@@ -73,7 +73,7 @@ p{
   margin-bottom: 20px;
 }
 
-.button-jumbo{
+.button-jumbo, .al-center{
   text-align: center;
 }
 
@@ -103,6 +103,11 @@ h2{
   font-size: 16px;
 }
 
+.item-big{
+  width: 800px;
+  height: 480px;
+}
+
 /* Utils */
   .container {
     max-width: 1400px;
@@ -115,6 +120,10 @@ h2{
 
   .space{
     justify-content: space-between;
+  }
+
+  .end{
+    justify-content: flex-end;
   }
 
   .padd-rad-small{
@@ -141,3 +150,7 @@ h2{
     padding: 50px 0;
   }
 
+  .bg-grey{
+    padding: 50px 0;
+    background-color: #dedede;
+  }
