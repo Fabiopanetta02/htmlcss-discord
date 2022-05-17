@@ -83,6 +83,26 @@ p{
   margin-left: 20px;
 }
 
+.item{
+  width: 70%;
+  height: 380px;
+}
+
+.description{
+  width: 20%;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.descr-p{
+  font-size: 16px;
+}
+
 /* Utils */
   .container {
     max-width: 1400px;
@@ -91,6 +111,9 @@ p{
 
   .flex-container{
     display: flex;
+  }
+
+  .space{
     justify-content: space-between;
   }
 
@@ -112,5 +135,9 @@ p{
     padding: 16px 32px;
     border-color: #fff;
     border: 0 solid transparent;
+  }
+
+  .bg-white{
+    padding: 50px 0;
   }
 
